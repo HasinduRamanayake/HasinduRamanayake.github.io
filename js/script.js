@@ -103,9 +103,9 @@
       },
       DoodleCraze: {
         title: "DoodleCraze",
-        description: "A third person multiplayer game",
+        description: "A Third Person Multiplayer Arcade Racing Game",
         image: "images/DD.png",
-        extra: "Additional information about DoodleCraze.",
+        extra: "This was a personal project which I was been keen on to self study the network replication in Unreal Engine Game Framework and successfully tested with multiple players under Steam Session platform.This can be downloaded from the Itch.io profile.",
         tags: "Unreal Engine 5.1 | Blueprints | C++ | Multiplayer Sessions | Blender",
         link: "https://hasinduramanayake.itch.io/doodlecraze"
       },
