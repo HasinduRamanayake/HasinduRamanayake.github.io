@@ -124,6 +124,14 @@
         extra: "This game was made just for learning purposes utilising PyGame with a very simplified UI",
         tags: "PyGame, Python",
         link: "https://github.com/HasinduRamanayake/MultiShooterX"
+      },
+      SmartMEDX: {
+        title: "SmartMEDX",
+        description: "A Blockchain Based Health Record System",
+        image: "images/SmartMedX_RE.png",
+        extra: "This was our 2nd year group project. Five of us were initiated this with a properly reviewed and identified research gap with mapperd research objectives to each research question to be satisfied.Eventually we were able to make it as a reputated product from the society; speacially from Doctors and Insurance Cooperations perspectives.",
+        tags: "#Solidity #Remix #Firebase #React #Redux #JS",
+        link: "https://github.com/Miranlfk/SmartMEDX"
       }
     };
 
