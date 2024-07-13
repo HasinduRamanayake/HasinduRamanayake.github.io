@@ -129,9 +129,9 @@
         title: "Skulls & Wheels",
         description: "Physics simulated Car Drift Mechanics",
         image: "images/Skull&Wheels.gif",
-        extra: "This project is in initial state at RAM Studios, and made in Unreal Engine with several algorithms to perform & deliver the smooth drifting capabilities to the player ",
+        extra: "This project is in initial state at RAM Studios, and made in Unreal Engine with several algorithms to perform & deliver the smooth drifting capabilities to the player. Please follow linkedIn page to stay on update on upcoming features!",
         tags: "#Unreal Engine 5 #Blueprints #PID Controllers",
-        link: "https://github.com/HasinduRamanayake/MultiShooterX"
+        link: "https://www.linkedin.com/company/ramstudiossl/"
       },
       SmartMEDX: {
         title: "SmartMEDX",
