@@ -242,14 +242,35 @@
 
   });
 
-  // close when click off of container
-  $(document).on('click touchstart', function (e){
+  // Toggle navigation menu when menu icon is clicked
+  document.querySelector('.menu-icon').addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevent the click event from propagating to the document
     var x = document.getElementById("navigation");
     if (x.className === "top-menu") {
       x.className += " menu-bar";
     } else {
       x.className = "top-menu";
     }
+  });
+
+  // Close navigation menu when clicking outside of it
+  document.addEventListener('click', function(event) {
+    var x = document.getElementById("navigation");
+    var isClickInside = x.contains(event.target);
+    var isMenuIconClick = event.target.closest('.menu-icon');
+    if (!isClickInside && !isMenuIconClick) {
+      x.className = "top-menu";
+    }
+  });
+
+  // Close navigation menu when a menu item is clicked
+  document.querySelectorAll('#navigation .nav-link').forEach(function(element) {
+    element.addEventListener('click', function() {
+      var x = document.getElementById("navigation");
+      if (x.className === "top-menu menu-bar") {
+        x.className = "top-menu";
+      }
+    });
   });
 
 })(jQuery);
