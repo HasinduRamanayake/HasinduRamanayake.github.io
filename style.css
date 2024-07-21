@@ -483,18 +483,19 @@ html {
 
 
 
-
 /*----- Billboard
 --------------------------------------------------------------*/
 span.colored {
     color: #20f4fb;
 }
+
 #billboard {
     position: relative;
     margin-bottom: 170px;
     overflow: hidden;
     height: 100vh; /* Full viewport height */
 }
+
 #billboard .banner-content {
     position: absolute;
     top: 50%;
@@ -504,23 +505,28 @@ span.colored {
     color: #fff;
     width: 100%;
 }
+
 #billboard .banner-header {
     margin-bottom: 200px;
 }
+
 .banner-content .centered-content {
     margin-top: 150px;
     display: inline-block;
 }
+
 .banner-content h1 {
     font-size: 4.4em;
     line-height: 1;
 }
+
 .banner-content p {
     font-size: 1.2em;
     line-height: 1.7;
     color: #cfcfcf;
     padding-bottom: 40px;
 }
+
 .profile-photo {
     width: 275px;
     height: 275px;
@@ -529,6 +535,7 @@ span.colored {
     border: 2px solid #20c4fb; /* Optional: Add a border */
     object-fit: cover; /* Maintain aspect ratio */ 
 }
+
 .profile-photo-2 {
     width: 320px;
     height: 320px;
@@ -537,6 +544,7 @@ span.colored {
     border: 2px solid #20c4fb; /* Optional: Add a border */
     object-fit: cover; /* Maintain aspect ratio */ 
 }
+
 #billboard .banner-video {
     position: absolute;
     top: 50%;
@@ -562,27 +570,32 @@ span.colored {
     z-index: -1;
 }
 
+/* Responsive Adjustments */
 @media screen and (max-width: 1680px){
     #billboard .banner-header {
         margin-bottom: 80px;
     }
 }
+
 @media screen and (max-width: 1480px){
     #billboard .banner-content {
         margin-top: 150px;
         width: 60%;
     }
 }
+
 @media screen and (max-width: 1380px){
     #billboard .banner-header {
         margin-bottom: 40px;
     }
 }
+
 @media screen and (max-width: 1280px){
   .banner-content h1 {
       font-size: 3.2em;
   }
 }
+
 @media screen and (max-width: 1180px){
   .banner-content p {
       padding-bottom: 10px;
@@ -591,22 +604,70 @@ span.colored {
       padding: 10px 50px;
   }
 }
+
 @media screen and (max-width: 1080px){
   #billboard .banner-header {
       width: 75%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .banner-content h1 {
+      font-size: 2.5em;
+  }
+  .banner-content h3 {
+      font-size: 1.5em;
+  }
+  .banner-content p {
+      font-size: 1em;
+  }
+  .profile-photo {
+      width: 200px;
+      height: 200px;
+  }
+  .banner-content .btn-outline-orange {
+      padding: 10px 40px;
+  }
+}
+
 @media screen and (max-width: 650px){
   #billboard .banner-header {
       width: 90%;
   }
   .banner-content h1 {
-      font-size: 2.6em;
+      font-size: 2.2em;
   }
   #billboard .banner-content {
-      width: 70%;
+      width: 90%;
+  }
+  .profile-photo {
+      width: 150px;
+      height: 150px;
+  }
+  .banner-content .btn-outline-orange {
+      padding: 10px 30px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .banner-content h1 {
+      font-size: 1.8em;
+  }
+  .banner-content h3 {
+      font-size: 1.2em;
+  }
+  .banner-content p {
+      font-size: 0.9em;
+  }
+  .profile-photo {
+      width: 120px;
+      height: 120px;
+  }
+  .banner-content .btn-outline-orange {
+      padding: 8px 20px;
+  }
+}
+
 
 /*----- Header Menu
 --------------------------------------------------------------*/
