@@ -140,7 +140,16 @@
         extra: "This was our 2nd year group project. Five of us were initiated this with a properly reviewed and identified research gap with mapperd research objectives to each research question to be satisfied.Eventually we were able to make it as a reputated product from the society; speacially from Doctors and Insurance Cooperations perspectives.",
         tags: "#Solidity #Remix #Firebase #React #Redux #JS",
         link: "https://github.com/Miranlfk/SmartMEDX"
+      },
+      Robotics: {
+        title: "Robotic Simulations",
+        description: "Using Isaac Gym/Sim/Lab powered by Reinforcement Learning",
+        image: "images/isaacgym.gif",
+        extra: "This is a fun project I did in my free time, I wanted to experiment the power of reinforcement learning when it comes to the robotic simulation",
+        tags: "#Isaac Gym #Unreal #Nvidia #Robotics #PPO",
+        link: "https://github.com/Miranlfk/SmartMEDX"
       }
+
     };
 
     // Modal functionality
